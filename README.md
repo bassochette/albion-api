@@ -7,7 +7,7 @@ Doesn't work for frontend js due to cross origin policies.
 ## Install
 
 ```
-npm i albion-api
+npm i node-albion-api
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ All the methods are async and return promises.
 ```javascript
 const {
   search
-} = require("albion-api")
+} = require("node-albion-api")
 
 search("yogourt")
   .then((results) => console.log(results))
