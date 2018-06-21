@@ -1,0 +1,17 @@
+{
+  "name": "albion-api",
+  "version": "1.0.0",
+  "description": "Node Js client to interact with albion killboard API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"TODO: implement some testing with nock\" && exit 1"
+  },
+  "repository": "https://github.com/bassochette/albion-api",
+  "keywords": [
+    "albion online",
+    "albion killboard",
+    "albion API"
+  ],
+  "author": "yogourt <julien.prugne@gmail.com>",
+  "license": "MIT"
+}
