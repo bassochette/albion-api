@@ -1,6 +1,6 @@
 {
   "name": "node-albion-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node Js client to interact with albion killboard API.",
   "main": "index.js",
   "scripts": {
