@@ -7,5 +7,9 @@ module.exports = {
  search : require("./search"),
  solokills : require("./soloKills"),
  topKills : require("./topKills"),
- upcomingGvgs : require("./upcomingGvgs")
+ upcomingGvgs : require("./upcomingGvgs"),
+    topPvpGuild: require('./topPvpGuild'),
+    topPveGuild: require('./topPveGuild'),
+    topCraftingGuild: require('./topCraftingGuild'),
+    topGatheringGuild: require('./topGatheringGuild')
 }
