@@ -20,7 +20,7 @@ export interface Equipement {
   Shoes?: Item;
 }
 
-export interface ToonInEvent {
+export interface ToonInKillEvent {
   AllianceId: string;
   AllianceName: string;
   AllianceTag: string;
@@ -38,16 +38,16 @@ export interface ToonInEvent {
   Name: string;
 }
 
-export interface Event {
+export interface KillEvent {
   BattleId: string;
   EventId: string;
   KillArea: KillArea;
   groupMemberCount: number;
   numberOfParticipants: number;
-  GroupMembers: ToonInEvent[];
-  Killer: ToonInEvent;
-  Participants: ToonInEvent[];
-  Victim: ToonInEvent;
+  GroupMembers: ToonInKillEvent[];
+  Killer: ToonInKillEvent;
+  Participants: ToonInKillEvent[];
+  Victim: ToonInKillEvent;
   Type: KillType;
   Version: number;
   TotalVictimKillFame: number;

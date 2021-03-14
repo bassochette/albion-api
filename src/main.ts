@@ -1,7 +1,9 @@
-import { Events } from './Events/Events';
+import { Kills } from './Kills/Kills';
 
 export class AlbionKillboard {
   constructor(
-    public readonly events = new Events(),
+    public readonly events = new Kills(),
   ) {}
 }
+
+export * from './Kills/kills.interfaces';
