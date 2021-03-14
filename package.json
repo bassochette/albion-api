@@ -1,6 +1,6 @@
 {
   "name": "node-albion-api",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "Node Js client to interact with albion killboard API.",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
