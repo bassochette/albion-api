@@ -36,6 +36,8 @@ export interface ToonInKillEvent {
   Inventory: Item[];
   KillFame: number;
   Name: string;
+  DamageDone: number;
+  SupportHealingDone: number;
 }
 
 export interface KillEvent {
