@@ -4,6 +4,8 @@ import { KillEvent } from './kills.interfaces';
 export interface FetchRecentKillsQuery {
   limit: number;
   offset: number;
+  allianceId?: string;
+  guildId?: string;
 }
 
 export interface FetchTopEventQuery extends FetchRecentKillsQuery{
