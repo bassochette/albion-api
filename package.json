@@ -1,6 +1,6 @@
 {
   "name": "node-albion-api",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Node Js client to interact with albion killboard API.",
   "main": "lib/main.js",
   "types": "lib/main.d.ts",
@@ -11,7 +11,9 @@
     "patch": "npm run build && npm version patch && npm publish",
     "format": "prettier --write '**/*.ts'",
     "build": "tsc",
-    "generate-doc": "typedoc"
+    "generate-doc": "typedoc",
+    "prepare": "husky install",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -41,6 +43,7 @@
     "lint-staged": "11.0.0",
     "prettier": "2.3.0",
     "sinon": "11.1.1",
+    "standard-version": "9.3.0",
     "ts-jest": "27.0.3",
     "ts-node": "10.0.0",
     "typedoc": "0.20.36",
@@ -49,11 +52,6 @@
   "dependencies": {
     "node-fetch": "^2.6.1",
     "query-string": "^7.0.0"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
   },
   "lint-staged": {
     "*.{ts}": "prettier --write"
