@@ -53,4 +53,5 @@ export interface KillEvent {
   Type: KillType;
   Version: number;
   TotalVictimKillFame: number;
+  TimeStamp: string;
 }
