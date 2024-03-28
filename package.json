@@ -36,8 +36,10 @@
   "author": "yogourt <julien.prugne@gmail.com>",
   "license": "MIT",
   "devDependencies": {
+    "@commitlint/config-conventional": "^19.1.0",
     "@types/jest": "26.0.24",
     "@types/sinon": "10.0.2",
+    "commitlint": "^19.2.1",
     "husky": "7.0.1",
     "jest": "27.0.6",
     "lint-staged": "11.0.0",
